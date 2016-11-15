@@ -5,10 +5,57 @@
 	<meta content="text/html; charset=UTF-8"/>
 </head>
 <body>
-	<form>
-		<legend>Форма для регистрации</legend>
-		
+<img src="pictures\head_back.jpg" width="1330">
+<div>
+	<ul>
+		<li><a href = "index.html">Главная</a></li>	
+		<li><a href = "catalog.html">Каталог</a></li>
+		<li><a href = "contacts.html">Контакты </a></li>	
+	</ul>
+	</div>
+	<form method="GET" id="enter" action="">
+		<fieldset>
+			<legend>Войти</legend>
+			<input type="text" name="login" placeholder="login"><br>
+			<input type="password" name="password" placeholder="password">
+
+		</fieldset>
 	</form>
+	<form method="GET" id="reg" action="">
+		<fieldset>
+			<legend>Зарегистрироваться</legend>
+			<input type="text" name="email" placeholder="Email" required="true"><br>
+			<input type="text" name="login" placeholder="login" required="true"><br>
+			<input type="password" name="password" placeholder="password" required="true"><br>
+			<br>
+			Пол:
+			<select name="sex">
+				<option value="null" id="sex">не указано</option>
+				<option value="male" id="sex">Мужской</option>
+				<option value="female" id="sex">Женский</option>
+			</select><br>
+			Ваши предпочтения в винах:<br>
+			Тип вина<br>
+			<input type="radio" name="wine_color" value="white">Белые<br>
+			<input type="radio" name="wine_color" value="red">Красные<br>
+			<input type="radio" name="wine_color" value="pink">Розовые<br>
+			Сахар<br>
+			<input type="radio" name="sugar" value="sweet">Сладкие<br>
+			<input type="radio" name="sugar" value="semisweet">Полусладкие<br>
+			<input type="radio" name="sugar" value="dry">Сухие<br>
+			<input type="radio" name="sugar" value="semidry">Полусухие<br>
+			Игристые<br>
+			<input type="radio" name="sparkles" value="yes">Да<br>
+			<input type="radio" name="sparkles" value="no">Нет<br>
+			Крепленые<br>
+			<input type="radio" name="strong" value="yes">Да<br>
+			<input type="radio" name="strong" value="no">Нет<br>
+			<br>
+			<input type="reset" name="reset" value="Очистить форму">
+			<input type="submit" name="registration" value="Зарегистрироваться">
+		</fieldset>
+	</form>
+
 </body>
 	<br/>
 	<hr>
