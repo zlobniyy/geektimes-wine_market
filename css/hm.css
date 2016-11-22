@@ -1,19 +1,14 @@
-body{
-margin:100px;
-padding:0
-}
-
 ul{
 margin:0;
 padding:0;
 list-style-type:none;
-height:100px;
+height:50px;
 width:490px;
 font-size:34px;
 background:url(img/burned.jpg) repeat-x;
+background-color:green;
 font-family:Arial,Verdana;
 }
-
 
 ul li a{
 display:block;
@@ -22,7 +17,7 @@ color:brown;
 text-decoration:none;
 text-align:center;
 padding:15px 15px 15px 15px;
-height:100px;
+height:50px;
 }
 
 ul li a:hover {
