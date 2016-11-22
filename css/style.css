@@ -1,2 +1,19 @@
-body { background-color: #f2e8e9
+body { 
+background-color: #f2e8e9;
+}
+a {
+color: #0000FF;
+/*font-size: 15px; 
+font-family: fantasy, cursive, serif;*/
+text-decoration: none;
+}
+ul {
+list-style-type: none;
+}
+.menu {
+text-decoration-color: #00ff00;
+font-size: 25px;
+font-family: fantasy, cursive, serif;
+text-decoration: none;
+list-style-type: none;
 }
