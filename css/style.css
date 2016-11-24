@@ -135,12 +135,14 @@ th{
 		border-collapse: collapse;
 		background: lightpink;
 		padding: 10px;
+		height: 15px;
 }
 td{
 		border-style: solid;
 		border-color: black;
 		border-collapse: collapse;
 		padding: 10px;
+		height: 30px;
 }
 img:hover{
 	border-color: grey;
