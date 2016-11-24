@@ -5,17 +5,18 @@
 		<link rel="shortcut icon" href="../img/favicon.ico"/>
 		<meta content="text/html; charset=UTF-8"/>
 		<link rel="stylesheet" type="text/css" href="..\css\style.css">
-		<!--link rel="stylesheet" type="text/css" href="..\css\hm.css"-->
 	</head>
 	<body>
-		<img src="../img/head_back.jpg" width="1330">
-		<div>
-			<ul class="menu">
-				<li><a href = "..\index.html">Главная</a></li>	
-				<li><a href = "..\html\catalog.html">Каталог</a></li>	
-				<li><a href = "..\html\contacts.html">Контакты</a></li>	
-			</ul>
-		</div>
+		<header>
+			<img src="..\img\head_back.jpg" width="1330">
+			<div>
+				<ul class="menu">
+					<li><a href = "..\index.html">Главная</a></li>	
+					<li><a href = "..\html\catalog.html">Каталог</a></li>	
+					<li><a href = "..\html\contacts.html">Контакты</a></li>	
+				</ul>
+			</div>
+		</header>
 		<form method="POST" id="enter" action="">
 			<fieldset>
 				<legend>Войти</legend>
@@ -28,15 +29,15 @@
 		<form method="POST" id="reg" action="">
 			<fieldset>
 				<legend>Зарегистрироваться</legend>
-				<input type="text" name="email" placeholder="Email" required="true"><br>
+				<input type="email" name="email" placeholder="Email" required="true"><br>
 				<input type="text" name="login" placeholder="login" required="true"><br>
 				<input type="password" name="password" placeholder="password" required="true"><br>
 				<br>
 				Пол:
-				<select name="sex">
-					<option value="null" id="sex">не указано</option>
-					<option value="male" id="sex">Мужской</option>
-					<option value="female" id="sex">Женский</option>
+				<select name="gender">
+					<option value="null" id="gender">не указано</option>
+					<option value="male" id="gender">Мужской</option>
+					<option value="female" id="gender">Женский</option>
 				</select><br>
 				Ваши предпочтения в винах:<br>
 				Тип вина<br>

@@ -5,33 +5,33 @@
 		<link rel="shortcut icon" href="../img/favicon.ico"/>
 		<meta content="text/html; charset=UTF-8"/>
 		<link rel="stylesheet" type="text/css" href="..\css\style.css">
-		<!--link rel="stylesheet" type="text/css" href="..\css\hm.css"-->
 	</head>
 	<body>
-		<img src="../img/head_back.jpg" width="1330">
-		<div>
-			<ul class="menu">
-				<li><a href = "..\index.html">Главная</a></li>	
-				<li><a href = "..\html\catalog.html">Каталог</a></li>	
-				<li><a href = "..\html\contacts.html">Контакты</a></li>
-			</ul>
-		</div>
+		<header>
+			<img src="..\img\head_back.jpg" width="1330">
+			<div>
+				<ul class="menu">
+					<li><a href = "..\index.html">Главная</a></li>	
+					<li><a href = "..\html\catalog.html">Каталог</a></li>	
+					<li><a href = "..\html\contacts.html">Контакты</a></li>
+				</ul>
+			</div>
+		</header>
 		<br>	
 		<h2>Напишите нам.</h2> 
 		<form action="" method="GET" target="http:\\ya.ru">
-			<input type="text" name="name" placeholder="Имя"><br>
-			<input type="text" name="Email" placeholder="Email"><br>
+			<input type="text" name="name" placeholder="Имя" required="true" ><br>
+			<input type="email" name="Email" placeholder="Email" required="true"><br>
 			<input type="text" name="Theme" placeholder="Тема"><br>
 			<textarea name="text" cols="50" rows="5" placeholder="Введите свое сообщение здесь"> </textarea><br>
 			<input type="submit" name="Отправить">
 		</form>
-		<h4>Адрес:</h4>
 		<div>
 		<form>
 			<ul>
 				<li>Контактный телефон: 6-66-66</li>
 				<li>Адрес: г.Новосибирск, Красный проспект, 89.</li>
-				<li>Email: <a href="mailto: order@nskwinery.ru">order@nskwinery.ru</a></li>
+				<li><a href="mailto: order@nskwinery.ru">order@nskwinery.ru</a><br></li>
 				<li>Мы на карте</li>
 			</ul>
 		</form>

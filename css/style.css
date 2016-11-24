@@ -1,6 +1,6 @@
 body { 
-background-color: #f2e8e9;
-overflow: auto;
+	background-color: #f2e8e9;
+	overflow: auto;
 }
 /*a {
 color: #0000FF;
@@ -9,8 +9,7 @@ font-family: fantasy, cursive, serif;
 text-decoration: none;
 }*/
 ul {
-list-style-type: none;
-
+	list-style-type: none;
 }
 
 .description{
@@ -28,64 +27,128 @@ list-style-type: none;
 	padding: 0;
 }
 ul li a{
-overflow: auto;
-text-decoration-color: firebrick;
-font-size: 25px;
-font-family: fantasy, cursive, serif;
-text-decoration: none;
-list-style-type: none;
-/* блок горизонтального меню */
-display:block;
-float:left;
-padding:15px 25px 15px 0px;
-height:30px;
-font-weight: : bold;
-list-style-type: none;
+	overflow: auto;
+	text-decoration-color: firebrick;
+	font-size: 25px;
+	font-family: fantasy, cursive, serif;
+	text-decoration: none;
+	list-style-type: none;
+	/* блок горизонтального меню */
+	display:block;
+	float:left;
+	padding:15px 25px 15px 0px;
+	height:30px;
+	font-weight: : bold;
+	list-style-type: none;
 }
 
 ul li a:hover {
-	color:red;
+		color:red;
 }
 
 a:visited{
-	color: slategrey;
+		color: slategrey;
 }
 a:link{
-	color: firebrick;
+		color: firebrick;
 }
 .product {
-	color: black;
-	font-weight: 400;
-	font-size: 18px;
-	background: #eaeaea;
-	border-style: dotted;
-	border-left-style: dotted;
-	border-width: thin;
-	width: 96%;
+		color: black;
+		font-weight: 400;
+		font-size: 18px;
+		background: #eaeaea;
+		border-style: dotted;
+		border-left-style: dotted;
+		border-width: thin;
+		width: 96%;
+		height: 60%;
 }
 footer {
-	float: left;
-	width: 100%
+		float: left;
+		width: 100%;
+		bottom: 1px;
 }
 
 .desc {
-	font-style: normal;
-	list-style-image: none;
+		font-style: normal;
+		list-style-image: none;
 }
 .text_desc{
-	color: #484343;
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 24px;
-	text-align: left;
-	list-style-image: url(../img/glass16.png);
-}
-form input{
-		width: 180px;
-		height: 20px;
-		font-style: italic;
-		text-decoration-color: pink;
+		color: #484343;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 24px;
+		text-align: left;
+		list-style-image: url(../img/glass16.png);
 }
 p u {
 	font-weight: 900;
+}
+form ul li a{
+		color: black;
+		font-size: 15px;
+		/*font-family: fantasy;*/
+		text-decoration: none;
+		list-style-type: none;
+		padding:0px 0px 0px 0px;
+		height:20px;
+		font-weight: : bold;
+		list-style-type: none;
+}
+form input[type="email"]{
+		width: 180px;
+		height: 30px;
+		font-style: italic;
+		color: darkblue;
+}		
+form input[type="text"]{
+		width: 180px;
+		height: 30px;
+		font-style: italic;
+		color: darkblue;
+		text-transform: capitalize; 
+}
+
+form input[type="password"]{
+		width: 180px;
+		height: 30px;
+		font-style: italic;
+		color: darkblue;
+}
+form input[type="email"]:focus{
+	background: lightcyan;
+	color: crimson;
+}
+form textarea{
+		font-style: italic;
+		color: darkblue;
+		text-transform: capitalize; 
+}
+table{
+		border-style: solid;
+		border-color: black;
+		border-collapse: collapse;
+}
+th{
+		border-style: solid;
+		border-color: black;
+		border-collapse: collapse;
+		background: lightpink;
+		padding: 10px;
+}
+td{
+		border-style: solid;
+		border-color: black;
+		border-collapse: collapse;
+		padding: 10px;
+}
+img:hover{
+	border-color: grey;
+	border: dotted 1px;
+}
+p::first-letter{
+		color: red;
+		font-size: 15px;
+		font-family: fantasy;
+		font-weight: : bold;
 }
