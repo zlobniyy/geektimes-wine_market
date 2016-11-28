@@ -145,8 +145,8 @@ td{
 		height: 30px;
 }
 img:hover{
-	border-color: grey;
-	border: dotted 1px;
+	outline-color: grey;
+	outline: dotted 1px;
 }
 p::first-letter{
 		color: red;
