@@ -4,16 +4,13 @@ html, body{
   min-height: 100%;
   height:100%;
 }
-
 div {
-	/*outline: 1px grey dotted;*/
 	background-color: lightpink;
     background-color: transparent;
 }
 .wrapper{
 	width: 1000px;
 	margin: 0 auto;
-	/*height: 100%;*/
     min-height: 100%;
     position: relative;
     background-image: url('../img/background_wood1.jpg');
@@ -60,13 +57,9 @@ div {
     border-radius: 15px;
 }
 .content{
-	/*height: 100%;*/
-	/*background: lightblue;*/
     background: transparent;
 	margin-bottom: -100px; 
-	/*padding-bottom: 100px;*/
     padding-top: 0px;
-    /*height: auto;*/
     min-height: 100%;
 }
 .footer{
@@ -107,19 +100,22 @@ p {
 	font-style: italic;
 	line-height: 16px;
     height: 200px;
-    /*outline: grey 1px dotted;*/
     margin-top: 20px;
 }
 .product {
 		color: black;
 		font-weight: 400;
 		font-size: 18px;
-		background: #eaeaea;
-		border-style: dotted;
-		border-left-style: dotted;
-		border-width: thin;
-		width: 96%;
-		height: 60%;
+        margin-left: 23;
+}
+.product_div{
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 700px;
+    float: left;
+    background: rgba(128,128,128,0.3);
+    border-radius: 15px;
+    margin-bottom: 50px;
 }
 .desc {
 		font-style: normal;
@@ -195,13 +191,50 @@ margin-bottom:110px;
 	margin-left:50px;
 	padding-top:0px;
 	padding-left:0px;
-	/*border: 1px dotted grey;*/
 	width:200px;
 	height: 100%;
 	float:left;
-	
 }
-
  .orgname_text{
 text-decoration: italic;
+}
+
+.product_table{
+    margin-left: 60px;
+    margin-bottom: 100px;
+    margin-left: 230px;
+}
+table{
+		border-style: solid;
+		border-color: black;
+		border-collapse: collapse;
+}
+th{
+		border-style: solid;
+		border-color: black;
+		border-collapse: collapse;
+		background: lightpink;
+		padding: 10px;
+		height: 15px;
+}
+td{
+		border-style: solid;
+		border-color: black;
+		border-collapse: collapse;
+		padding: 10px;
+		height: 30px;
+}
+/*p::first-letter{
+		color: red;
+		font-size: 15px;
+		font-family: fantasy;
+		font-weight: : bold;
+}*/
+
+.product_pic{
+    float: left; 
+    height: 500px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 50px;
 }
