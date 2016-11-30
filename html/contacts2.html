@@ -1,23 +1,29 @@
-﻿<!DOCTYPE HTML>
+﻿<!DOCTYPE>
+<!DOCTYPE HTML>
 <html>
-	<head>
-		<title> Winery shop </title>
-		<link rel="shortcut icon" href="../img/favicon.ico"/>
-		<meta content="text/html; charset=UTF-8"/>
-		<link rel="stylesheet" type="text/css" href="..\css\style.css">
-	</head>
-	<body>
-		<header>
-			<img src="..\img\head_back.jpg" width="1330">
-			<div>
-				<ul class="menu">
-					<li><a href = "..\index.html">Главная</a></li>	
-					<li><a href = "..\html\catalog.html">Каталог</a></li>	
-					<li><a href = "..\html\contacts.html">Контакты</a></li>
-				</ul>
+<head>
+<meta charset="utf-8">
+	<title>Главная</title>
+	<link rel="shortcut icon" href="../img/favicon.ico"/>
+	<meta content="text/html; charset=UTF-8"/>
+	<link rel="stylesheet" type="text/css" href="../css/style2.css">
+</head>
+<body>
+	<div class="wrapper">
+			<div class="content">
+			<div class="header">
+				<div class="logo">
+					<img src="../img/logo_small.png">
+				</div>
+				<div class="orgname">
+				<p class="orgname_text">WineryNSK</p>
+				</div>
+				<div class="menu">
+					<div class="menu-points"><a href = "..\index2.html">Главная</a></div>
+					<div class="menu-points"><a href = "catalog2.html">Каталог</a></div>
+					<div class="menu-points"><a href = "contacts2.html">Контакты</a></div>
+				</div>
 			</div>
-		</header>
-		<br>	
 		<h2>Напишите нам.</h2> 
 		<form action="" method="GET" target="http:\\ya.ru">
 			<input type="text" name="name" placeholder="Имя" required="true" ><br>
@@ -36,16 +42,17 @@
 			</ul>
 		</form>
 		</div>
-		<div>
+		<div id="ymap">
 		<form>
 			<!--<iframe src="https://api-maps.yandex.ru/frame/v1/-/CZsLF0Nw" width="560" height="400" frameborder="0"></iframe> -->
 			<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=03-lUVYRF4QXMVH9RGLeW_gEQhTyasKW&amp;width=500&amp;height=400&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
 		</form>
 		</div>
-		<br/>
-		<footer>
-			<hr>
-			<p>&copy; Все права защищены. GB. 2016.</p>
-		</footer>
-	</body>
+		
+		
+		</div>
+		<div class="buffer"></div>
+        <div class="footer"><p>&copy; Все права защищены. GB. 2016.</p></div>
+	</div>
+</body>
 </html>
