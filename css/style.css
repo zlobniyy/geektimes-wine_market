@@ -198,6 +198,10 @@ margin-bottom:110px;
 	height: 100%;
 	float:left;
 }
+.orgname a{
+	color:rgba(250, 128, 114,0.7);
+	font-family:Garamond;
+	}
  .orgname_text{
 text-decoration: italic;
 }
