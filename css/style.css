@@ -245,3 +245,34 @@ td{
     margin-bottom: 100px;
     margin-left: 50px;
 }
+.breadclumps{
+    height: 25x;
+    border: 1px grey dotted;
+    position: relative;
+    bottom: 0;
+    /*background: rgba(128,128,128,0.3);*/
+    padding-left: 0px;
+    padding-top: 5px;
+}
+.br_li{
+    height:  40px;
+    background: rgba(128,128,128,0.3);
+    padding-top: 15px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-weight: 900;
+    margin-top: 0;
+    
+}
+.br_li li {
+    display: inline-block;
+}
+.br_li li::before{
+    content: ">";
+    margin-left: 5px;
+    margin-right: 5px;
+    color: blue;
+}
+.br_li li:first-child::before{
+    content: "";
+}
