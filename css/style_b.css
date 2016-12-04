@@ -1,0 +1,17 @@
+* {
+    border: 1px grey solid;
+}
+body, html {
+    min-height: 100%;
+}
+.container {
+    margin: 0 auto;
+    float: none;
+}
+.menu {
+    margin-right: 5px;
+    float: right;
+}
+.content{
+    min-height: 100%;
+}
