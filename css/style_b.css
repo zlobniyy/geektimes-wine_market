@@ -14,6 +14,7 @@ body, html {
     float: none;
     height: 100%;
     background-image: url(/img/background_wood1.jpg);
+    position: relative;
 }
 .menu {
     margin-right: 5px;
@@ -74,4 +75,24 @@ body, html {
     padding: 5px;
     padding-right: 10px;
     margin: 0px;
+}
+
+.thumbimg{
+    height: 250px;
+    background-color: transparent;
+}
+
+.thumbnail .thumbnail img{
+    height: 250px;
+    background-color: transparent;
+}
+.thumbnail {
+    background-color: rgba(128,128,128,0.3);
+    margin-top: 20px;
+}
+.row{
+    margin: 15px;
+}
+.btn-default{
+    width: 100%;
 }
